@@ -34,7 +34,7 @@ const elem = <span>React Element</span>;
 // component composition
 const data = 1000;
 
-const Title = (
+const Title = ()=>(
   <h1 className="head" tabIndex="5">
     {elem}
     Namastae React using JSX
